@@ -4,13 +4,13 @@ const sass = require('gulp-sass')(require('sass'))
 
 function buildStyles() {
 
-    return src('index.scss')
+    return src('alpha/**/*.scss')
     .pipe(sass())
     .pipe(dest('css'))
 }
 
 function watchTask(){
-    watch(['index.scss'],buildStyles);
+    watch(['alpha/**/*.scss'],buildStyles);
 }
 
 
