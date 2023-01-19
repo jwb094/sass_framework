@@ -1,0 +1,49 @@
+
+@mixin btn_default {
+    border-radius: 3rem;
+    width: 15rem;
+    // padding: 1rem;
+    border: none;
+    height: 4em;
+    *{
+         font-weight: 300;
+    }
+}
+
+
+.c_button{
+    @include btn_default;
+
+       //Sizes
+    &__lg{
+        padding: 0.75rem;
+    }
+
+    &__md{
+        padding: 0.5rem;
+    }
+
+    &__sm{
+        padding: 0.25rem;
+    }
+
+    &__white{
+        background-color: $white;
+    }
+
+    &__black{
+        background-color: $black;
+    }
+
+    &__red{
+        background-color: $red;
+    }
+
+    &__blue{
+        background-color: $blue;
+    }
+
+    &__grey{
+        background-color: $grey;
+    }
+}

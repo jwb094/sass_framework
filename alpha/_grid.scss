@@ -15,7 +15,7 @@ $grid_columns : 12;
 //Responsive Media Quries for columns
     @each  $key,$value in $breakpoints {
     
-        @media (max-width:$value) {
+        @media (min-width:$value) {
               @for $i from 1 through $grid_columns {
                   #{$key}.l-col-#{$i}{
                       width: ($i * 100%) / $grid_columns;

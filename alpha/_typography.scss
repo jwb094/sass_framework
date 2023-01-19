@@ -1,0 +1,56 @@
+@mixin text_el_setting($fs,$lh,$tr){
+    font-size: $fs;
+    line-height: $lh;
+    letter-spacing: $tr;
+}
+
+
+$headings:(
+    "h1":(
+        'font-size': 20,
+        'line-height': 20,
+        'letter-spacing': 10
+    ),
+    "h2":(
+        'font-size': 20,
+        'line-height': 20,
+        'letter-spacing': 10
+    ),
+    "h3":(
+        'font-size': 20,
+        'line-height': 20,
+        'letter-spacing': 10
+    ),
+    "h4":(
+        'font-size': 20,
+        'line-height': 20,
+        'letter-spacing': 10
+    ),
+    "h5":(
+        'font-size': 20,
+        'line-height': 20,
+        'letter-spacing': 10
+    ),
+    "h6":(
+        'font-size': 20,
+        'line-height': 20,
+        'letter-spacing': 10
+    ),
+);
+
+
+@each $key,$heading in $headings {
+   // @debug $heading;
+    //@debug map-get($heading,'font-size');
+   $r: map-get($heading,'font-size');
+   $r: map-get($heading,'line-height');
+   $r: map-get($heading,'letter-spacing');
+   // @mixin
+    // @each $heading_settings in $headings {
+    //     @debug $heading_settings;
+    // }
+    // .font-size-#{$size} {
+    //   font-size: #{$size}px;
+    //   line-height: #{$size + 2}px;
+    // }
+  }

@@ -131,7 +131,7 @@ button {
   margin-left: 100%;
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 1400px) {
   xxl.l-col-1 {
     width: 8.3333333333%;
   }
@@ -169,7 +169,7 @@ button {
     width: 100%;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   xl.l-col-1 {
     width: 8.3333333333%;
   }
@@ -207,7 +207,7 @@ button {
     width: 100%;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   lg.l-col-1 {
     width: 8.3333333333%;
   }
@@ -245,7 +245,7 @@ button {
     width: 100%;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   md.l-col-1 {
     width: 8.3333333333%;
   }
@@ -283,7 +283,7 @@ button {
     width: 100%;
   }
 }
-@media (max-width: 525px) {
+@media (min-width: 525px) {
   sm.l-col-1 {
     width: 8.3333333333%;
   }
@@ -321,7 +321,7 @@ button {
     width: 100%;
   }
 }
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   xs.l-col-1 {
     width: 8.3333333333%;
   }
@@ -358,4 +358,37 @@ button {
   xs.l-col-12 {
     width: 100%;
   }
+}
+.c_button {
+  border-radius: 3rem;
+  width: 15rem;
+  border: none;
+  height: 4em;
+}
+.c_button * {
+  font-weight: 300;
+}
+.c_button__lg {
+  padding: 0.75rem;
+}
+.c_button__md {
+  padding: 0.5rem;
+}
+.c_button__sm {
+  padding: 0.25rem;
+}
+.c_button__white {
+  background-color: #FFFFFF;
+}
+.c_button__black {
+  background-color: #000;
+}
+.c_button__red {
+  background-color: #a20000;
+}
+.c_button__blue {
+  background-color: #243aff;
+}
+.c_button__grey {
+  background-color: #5e5e5e;
 }
