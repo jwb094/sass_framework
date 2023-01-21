@@ -1,0 +1,26 @@
+.bg{
+    &__white{
+        background-color: $white;
+    }
+
+    &__black{
+        background-color: $black;
+    }
+
+    &__red{
+        background-color: $red;
+    }
+
+    &__blue{
+        background-color: $blue;
+    }
+
+    &__grey{
+        background-color: $grey;
+    }
+
+    &__pink{
+        background-color: $pink;
+    }
+
+}

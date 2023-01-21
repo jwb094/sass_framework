@@ -60,14 +60,14 @@ $utilities:(
         "values":(
             "font-size":22px,
             "line-height":32px,
-    ),
+        ),
     ),
     "p_lg":(
         "prefix":"p_xl",
         "values":(
             "font-size":20px,
             "line-height":28px,
-    ),
+        ),
     ),
     "p_md":(
         "prefix":"p_md",
@@ -94,15 +94,15 @@ $utilities:(
 );
 
 @each $property,$map in $utilities{
-$prefix:map-get($map,"prefix");
-$values:map-get($map,"values");
+    $prefix:map-get($map,"prefix");
+    $values:map-get($map,"values");
 
-$fs: map-get($values,'font-size');
-$lh: map-get($values,'line-height');
-$tr: map-get($values,'letter-spacing');    
+    $fs: map-get($values,'font-size');
+    $lh: map-get($values,'line-height');
+    $tr: map-get($values,'letter-spacing');    
 
-.#{$prefix}{
-@include text_el_setting($fs,$lh,$tr); 
-}
+        .#{$prefix}{
+             @include text_el_setting($fs,$lh,$tr); 
+        }
 
 }
