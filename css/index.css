@@ -35,6 +35,28 @@ button {
   color: red;
 }
 
+.l-container {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  max-width: 77.5rem;
+  width: 100%;
+}
+
+.l-row {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+}
+
+/*
+ Grid - Responsive sizes
+*/
 .l-col-1 {
   width: 8.3333333333%;
 }
@@ -391,4 +413,65 @@ button {
 }
 .c_button__grey {
   background-color: #5e5e5e;
+}
+
+.h1 {
+  font-size: 64px;
+  line-height: 60px;
+  letter-spacing: 2%;
+}
+
+.h2 {
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: 2%;
+}
+
+.h3 {
+  font-size: 28px;
+  line-height: 44px;
+  letter-spacing: 2%;
+}
+
+.h4 {
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 2%;
+}
+
+.h5 {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 2%;
+}
+
+.h6 {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2%;
+}
+
+.p_xl {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.p_xl {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.p_md {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.p_sm {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.p_xs {
+  font-size: 12px;
+  line-height: 20px;
 }

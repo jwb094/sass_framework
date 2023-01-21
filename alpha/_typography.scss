@@ -1,3 +1,4 @@
+
 @mixin text_el_setting($fs,$lh,$tr){
     font-size: $fs;
     line-height: $lh;
@@ -5,52 +6,103 @@
 }
 
 
-$headings:(
-    "h1":(
-        'font-size': 20,
-        'line-height': 20,
-        'letter-spacing': 10
+$utilities:(
+    "heading1":(
+        "prefix":"h1",
+        "values":(
+            "font-size":64px,
+            "line-height":60px,
+            "letter-spacing":2%,
+            ),
     ),
-    "h2":(
-        'font-size': 20,
-        'line-height': 20,
-        'letter-spacing': 10
+    "heading2":(
+        "prefix":"h2",
+        "values":(
+            "font-size":48px,
+            "line-height":52px,
+            "letter-spacing":2%,
+        ),
     ),
-    "h3":(
-        'font-size': 20,
-        'line-height': 20,
-        'letter-spacing': 10
+    "heading3":(
+        "prefix":"h3",
+        "values":(
+            "font-size":28px,
+            "line-height":44px,
+            "letter-spacing":2%,
     ),
-    "h4":(
-        'font-size': 20,
-        'line-height': 20,
-        'letter-spacing': 10
     ),
-    "h5":(
-        'font-size': 20,
-        'line-height': 20,
-        'letter-spacing': 10
+    "heading4":(
+        "prefix":"h4",
+        "values":(
+            "font-size":28px,
+            "line-height":36px,
+            "letter-spacing":2%,
+        ),
     ),
-    "h6":(
-        'font-size': 20,
-        'line-height': 20,
-        'letter-spacing': 10
+    "heading5":(
+        "prefix":"h5",
+        "values":(
+            "font-size":24px,
+            "line-height":32px,
+            "letter-spacing":2%,
+        ),
     ),
+    "heading6":(
+        "prefix":"h6",
+        "values":(
+            "font-size":20px,
+            "line-height":28px,
+            "letter-spacing":2%,
+        ),
+    ),
+    "p_xl":(
+        "prefix":"p_xl",
+        "values":(
+            "font-size":22px,
+            "line-height":32px,
+    ),
+    ),
+    "p_lg":(
+        "prefix":"p_xl",
+        "values":(
+            "font-size":20px,
+            "line-height":28px,
+    ),
+    ),
+    "p_md":(
+        "prefix":"p_md",
+        "values":(
+            "font-size":18px,
+            "line-height":28px,
+    ),
+    ),
+    "p_sm":(
+        "prefix":"p_sm",
+        "values":(
+            "font-size":14px,
+            "line-height":20px,
+        ),
+    ),
+    "p_xs":(
+        "prefix":"p_xs",
+        "values":(
+            "font-size":12px,
+            "line-height":20px,
+        ),
+    ),
+
 );
 
+@each $property,$map in $utilities{
+$prefix:map-get($map,"prefix");
+$values:map-get($map,"values");
 
-@each $key,$heading in $headings {
-   // @debug $heading;
-    //@debug map-get($heading,'font-size');
-   $r: map-get($heading,'font-size');
-   $r: map-get($heading,'line-height');
-   $r: map-get($heading,'letter-spacing');
-   // @mixin
-    // @each $heading_settings in $headings {
-    //     @debug $heading_settings;
-    // }
-    // .font-size-#{$size} {
-    //   font-size: #{$size}px;
-    //   line-height: #{$size + 2}px;
-    // }
-  }
+$fs: map-get($values,'font-size');
+$lh: map-get($values,'line-height');
+$tr: map-get($values,'letter-spacing');    
+
+.#{$prefix}{
+@include text_el_setting($fs,$lh,$tr); 
+}
+
+}
