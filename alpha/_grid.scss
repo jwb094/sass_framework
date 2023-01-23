@@ -57,6 +57,12 @@ Container + Row
                 flex-grow: 0; 
                 width: ($i * 100%) / $grid_columns;
             }
+
+            .l-col-offset-#{$i}-#{$key}{
+                box-sizing: border-box;
+                flex-grow: 0; 
+                margin-left: ($i * 100%) / $grid_columns;
+            }
           }
     }
 }
