@@ -113,3 +113,30 @@ $utilities:(
         }
 
 }
+
+
+
+.colour_{
+
+    &white{
+        color: $white;
+    }
+
+    &black{
+        color: $black;
+    }
+
+    &red{
+        color: $red;
+    }
+
+    &blue{
+        color: $blue;
+    }
+
+    &grey{
+        color: $grey;
+    }
+}
+
+

@@ -1,177 +1,158 @@
+$spacing_values: (
+    "1":16,
+    "2":32,
+    "3":48,
+    "4":64,
+    "5":80,
+    "6":96,
+    "7":112,
+    "8":128,
+    "9":144,
+    "10":160
+);
 
-     $spacing_values:("1":16,"2":32,"3":48,"4":64,"5":80,"6":96,"7":112,"8":128,"9":144,"10":160);
-
-     $p_utilities:(
-             "padding_x":(
-                 "prefix":"u-px",
-                 "values":(
-                     "padding-top",
-                     "padding-bottom"
-                     ),
-                 ),
-             "padding_y":(
-                 "prefix":"u-py",
-                 "values":(
-                     "padding-left",
-                     "padding-right"
-                     ),
-                 ),
-             );    
-             @each $property,$map in $p_utilities{
-             $prefix:map-get($map,"prefix");
-             $values:map-get($map,"values");
-          @each $sv_key,$sv in $spacing_values{
-           .#{$prefix}-#{$sv_key}{
-             
-             @each $k in $values{
-                  
-                 #{$k}: #{$sv}px;
-                  }
-             }
-         }
-     }
-     
-         $m_utilities:(
-             "margin_x":(
-                 "prefix":"u-mx",
-                 "values":(
-                     "margin-top",
-                     "margin-bottom"
-                     ),
-                 ),
-             "margin_y":(
-                 "prefix":"u-my",
-                 "values":(
-                     "margin-left",
-                     "margin-right"
-                     ),
-                 ),
-             );    
-             
-             @each $property,$map in $m_utilities{
-                 $prefix:map-get($map,"prefix");
-                 $values:map-get($map,"values");
-                  @each $sv_key,$sv in $spacing_values{
-                   .#{$prefix}-#{$sv_key}{
-                     
-                     @each $k in $values{
-                          
-                         #{$k}: #{$sv}px;
-                          }
-                     }
-         }
-     }    
-    
-    $utilities:(
-        "padding":(
-            "prefix":"u-p",
-            "values":(
-                "0":0,
-                "1":1,
-                "2":2,
-                "3":3,
-                "4":4
-                ),
-            ),
-            "padding-top":(
-                "prefix":"u-pt",
-                "values":(
-                    "0":0,
-                    "1":1,
-                    "2":2,
-                    "3":3,
-                    "4":4
-                    ),
-            ),
-            "padding-bottom":(
-            "prefix":"u-pb",
-            "values":(
-                "0":0,
-                "1":1,
-                "2":2,
-                "3":3,
-                "4":4
-                ),
-            ),
-                "padding-left":(
-            "prefix":"u-pl",
-            "values":(
-                "0":0,
-                "1":1,
-                "2":2,
-                "3":3,
-                "4":4
-                ),
-            ),
-            "padding-right":(
-            "prefix":"u-pr",
-            "values":(
-                "0":0,
-                "1":1,
-                "2":2,
-                "3":3,
-                "4":4
-                ),
-            ),
-            "margin":(
-            "prefix":"u-m",
-            "values":(
-                "0":0,
-                "1":1,
-                "2":2,
-                "3":3,
-                "4":4
-                ),
-            ),
-            "margin-top":(
-            "prefix":"u-mt",
-            "values":(
-                "0":0,
-                "1":1,
-                "2":2,
-                "3":3,
-                "4":4
-                ),
-            ),
-            "margin-bottom":(
-            "prefix":"u-mb",
-            "values":(
-                "0":0,
-                "1":1,
-                "2":2,
-                "3":3,
-                "4":4
-                ),
-            ),
-            "margin-left":(
-            "prefix":"u-ml",
-            "values":(
-                "0":0,
-                "1":1,
-                "2":2,
-                "3":3,
-                "4":4
-                ),
-            ),
-            "margin-right":(
-            "prefix":"u-mr",
-            "values":(
-                "0":0,
-                "1":1,
-                "2":2,
-            "3":3,
-            "4":4
-            ),
+$p_utilities: (
+    "padding_x":("prefix":"u-px",
+        "values":("padding-top",
+            "padding-bottom"
         ),
-    );
+    ),
+    "padding_y":("prefix":"u-py",
+        "values":("padding-left",
+            "padding-right"
+        ),
+    ),
+);
 
-@each $property,$map in $utilities{
-    $prefix:map-get($map,"prefix");
-    $values:map-get($map,"values");
-   
-   
-    @each $k,$v in $values{
-        .#{$prefix}-#{$k}{
+@each $property,
+$map in $p_utilities {
+    $prefix: map-get($map, "prefix");
+    $values: map-get($map, "values");
+
+    @each $sv_key,
+    $sv in $spacing_values {
+        .#{$prefix}-#{$sv_key} {
+
+            @each $k in $values {
+
+                #{$k}: #{$sv}px;
+            }
+        }
+    }
+}
+
+$m_utilities: (
+    "margin_x":("prefix":"u-mx",
+        "values":("margin-top",
+            "margin-bottom"
+        ),
+    ),
+    "margin_y":("prefix":"u-my",
+        "values":("margin-left",
+            "margin-right"
+        ),
+    ),
+);
+
+@each $property,
+$map in $m_utilities {
+    $prefix: map-get($map, "prefix");
+    $values: map-get($map, "values");
+
+    @each $sv_key,
+    $sv in $spacing_values {
+        .#{$prefix}-#{$sv_key} {
+
+            @each $k in $values {
+
+                #{$k}: #{$sv}px;
+            }
+        }
+    }
+}
+
+$utilities: (
+    "padding":("prefix":"u-p",
+        "values":("0":0,
+            "1":1,
+            "2":2,
+            "3":3,
+            "4":4),
+    ),
+    "padding-top":("prefix":"u-pt",
+        "values":("0":0,
+            "1":1,
+            "2":2,
+            "3":3,
+            "4":4),
+    ),
+    "padding-bottom":("prefix":"u-pb",
+        "values":("0":0,
+            "1":1,
+            "2":2,
+            "3":3,
+            "4":4),
+    ),
+    "padding-left":("prefix":"u-pl",
+        "values":("0":0,
+            "1":1,
+            "2":2,
+            "3":3,
+            "4":4),
+    ),
+    "padding-right":("prefix":"u-pr",
+        "values":("0":0,
+            "1":1,
+            "2":2,
+            "3":3,
+            "4":4),
+    ),
+    "margin":("prefix":"u-m",
+        "values":("0":0,
+            "1":1,
+            "2":2,
+            "3":3,
+            "4":4),
+    ),
+    "margin-top":("prefix":"u-mt",
+        "values":("0":0,
+            "1":1,
+            "2":2,
+            "3":3,
+            "4":4),
+    ),
+    "margin-bottom":("prefix":"u-mb",
+        "values":("0":0,
+            "1":1,
+            "2":2,
+            "3":3,
+            "4":4),
+    ),
+    "margin-left":("prefix":"u-ml",
+        "values":("0":0,
+            "1":1,
+            "2":2,
+            "3":3,
+            "4":4),
+    ),
+    "margin-right":("prefix":"u-mr",
+        "values":("0":0,
+            "1":1,
+            "2":2,
+            "3":3,
+            "4":4),
+    ),
+);
+
+@each $property,
+$map in $utilities {
+    $prefix: map-get($map, "prefix");
+    $values: map-get($map, "values");
+
+
+    @each $k,
+    $v in $values {
+        .#{$prefix}-#{$k} {
             #{$property}:#{$v}px;
         }
     }
