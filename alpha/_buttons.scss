@@ -18,6 +18,7 @@
     &__lg{
         width: 10rem;
         padding: 1rem;
+      
     }
 
     &__md{
@@ -32,21 +33,43 @@
 
     &__white{
         background-color: $white;
+        &:hover{
+            background-color:complement($white);
+        }
     }
 
     &__black{
         background-color: $black;
+        &:hover{
+            background-color:complement($black);
+        }
     }
 
     &__red{
         background-color: $red;
+        &:hover{
+            background-color:complement($red);
+        }
     }
 
     &__blue{
         background-color: $blue;
+        &:hover{
+            background-color:complement($blue);
+        }
     }
 
     &__grey{
         background-color: $grey;
+        &:hover{
+            background-color:complement($grey);
+        }
+    }
+
+    &__green{
+        background-color: $green;
+        &:hover{
+            background-color:complement($green);
+        }
     }
 }
