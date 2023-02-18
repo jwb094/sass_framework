@@ -1,0 +1,56 @@
+
+
+.c_button_gp{
+     border-radius: pxToRem(10);
+     display: flex;
+     border: 0px;
+     border-style: solid;
+     border-color: transparent;
+     text-align: center;
+
+    //Sizes
+    &__lg{
+        padding: 0.75rem;
+    }
+
+    &__md{
+        padding: 0.5rem;
+    }
+
+    &__sm{
+        padding: 0.25rem;
+    }
+
+    //Button Groups
+
+    &-leading{
+        // cursor: pointer;
+        border: 1px solid #6B7280;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    &-middle{
+        border-top: 1px solid #6B7280;
+        border-bottom: 1px solid #6B7280;
+        border-right: 1px solid #6B7280;
+
+        &-no-edges{
+            border-top: 1px solid #6B7280;
+            border-bottom: 1px solid #6B7280;
+            border-left:none;
+            border-right:none;
+        }
+    }
+
+    &-trailing{
+        border: 1px solid #6B7280;
+        border-radius: 0px 10px 10px 0px;
+    }
+    //     //Colours
+    // &--white{
+    //         background-color: #fff;
+    //           &:hover{
+    //             background-color: darken($color: #fff, $amount: 20%);
+    //         }
+    // }
+}
