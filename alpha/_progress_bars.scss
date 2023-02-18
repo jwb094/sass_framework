@@ -1,0 +1,90 @@
+@use "sass:math";
+@use "../alpha/functions" as *;
+
+
+$sizes: (
+    "small":("prefix":"sm",
+        "values":("height":8,
+            "width":1280,
+        ),
+    ),
+    "medium":("prefix":"md",
+        "values":("height":16,
+            "width":1280,
+        ),
+    ),
+    "large":("prefix":"lg",
+        "values":("height":32,
+            "width":1280,
+        ),
+    ),
+);
+
+@each $property,
+$map in $sizes {
+    $prefix: map-get($map, "prefix");
+    $values: map-get($map, "values");
+
+    //Progress Bar sizes 10 to 100
+    @each $k,
+    $v in $prefix {
+        .c-progress-bar-#{$prefix} {
+
+            @each $index,
+            $value in $values {
+                #{$index}: pxToRem($value);
+            }
+        }
+
+//Default
+
+                //Progress Bar  fill bar sizes 10 to  100
+                @for $index from 1 through $grid-columns {
+                    $heights: map-get($values, "height");
+
+                    .c-progress-#{$index}0-#{$prefix} {
+                        width: pxToRem($index*100);
+
+                        @each $key_,
+                        $vavlue_ in $heights {
+                            height: pxToRem($key_);
+                        }
+
+                        border-radius: pxToRem(60);
+                        // background: #4B4EFC;
+                    }
+                }
+            }
+
+//Repsonive
+        @each $key, $value in $breakpoints {
+            @media (min-width:$value) {
+
+                //Progress Bar  fill bar sizes 10 to  100
+                @for $index from 1 through $grid-columns {
+                    $heights: map-get($values, "height");
+
+                    .c-progress-#{$index}0-#{$prefix} {
+                        
+                        width: pxToRem($index/$value);
+
+                        @each $key_,
+                        $vavlue_ in $heights {
+                            height: pxToRem($key_);
+                        }
+
+                        border-radius: pxToRem(60);
+                        // background: #4B4EFC;
+                    }
+                }
+            }
+    }
+}
+
+
+.c-progress-bar {
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: pxToRem(60);
+
+}

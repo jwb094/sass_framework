@@ -1014,7 +1014,7 @@ Container + Row
 }
 
 .c_button_gp {
-  border-radius: pxToRem(10);
+  border-radius: 0.625rem;
   display: flex;
   border: 0px;
   border-style: solid;
@@ -1083,6 +1083,1359 @@ Container + Row
 }
 .c-bdg__pink {
   background-color: #f176ff;
+}
+
+.c-progress-bar-sm {
+  height: 0.5rem;
+  width: 80rem;
+}
+
+.c-progress-10-sm {
+  width: 6.25rem;
+  height: 0.5rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-20-sm {
+  width: 12.5rem;
+  height: 0.5rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-30-sm {
+  width: 18.75rem;
+  height: 0.5rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-40-sm {
+  width: 25rem;
+  height: 0.5rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-50-sm {
+  width: 31.25rem;
+  height: 0.5rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-60-sm {
+  width: 37.5rem;
+  height: 0.5rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-70-sm {
+  width: 43.75rem;
+  height: 0.5rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-80-sm {
+  width: 50rem;
+  height: 0.5rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-90-sm {
+  width: 56.25rem;
+  height: 0.5rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-100-sm {
+  width: 62.5rem;
+  height: 0.5rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-110-sm {
+  width: 68.75rem;
+  height: 0.5rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-120-sm {
+  width: 75rem;
+  height: 0.5rem;
+  border-radius: 3.75rem;
+}
+
+@media (min-width: 0px) {
+  .c-progress-10-sm {
+    width: 1/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-sm {
+    width: 2/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-sm {
+    width: 3/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-sm {
+    width: 4/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-sm {
+    width: 5/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-sm {
+    width: 6/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-sm {
+    width: 7/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-sm {
+    width: 8/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-sm {
+    width: 9/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-sm {
+    width: 10/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-sm {
+    width: 11/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-sm {
+    width: 12/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+}
+@media (min-width: 480px) {
+  .c-progress-10-sm {
+    width: 1/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-sm {
+    width: 2/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-sm {
+    width: 3/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-sm {
+    width: 4/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-sm {
+    width: 5/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-sm {
+    width: 6/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-sm {
+    width: 7/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-sm {
+    width: 8/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-sm {
+    width: 9/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-sm {
+    width: 10/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-sm {
+    width: 11/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-sm {
+    width: 12/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+}
+@media (min-width: 768px) {
+  .c-progress-10-sm {
+    width: 1/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-sm {
+    width: 2/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-sm {
+    width: 3/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-sm {
+    width: 4/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-sm {
+    width: 5/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-sm {
+    width: 6/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-sm {
+    width: 7/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-sm {
+    width: 8/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-sm {
+    width: 9/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-sm {
+    width: 10/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-sm {
+    width: 11/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-sm {
+    width: 12/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+}
+@media (min-width: 992px) {
+  .c-progress-10-sm {
+    width: 1/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-sm {
+    width: 2/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-sm {
+    width: 3/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-sm {
+    width: 4/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-sm {
+    width: 5/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-sm {
+    width: 6/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-sm {
+    width: 7/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-sm {
+    width: 8/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-sm {
+    width: 9/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-sm {
+    width: 10/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-sm {
+    width: 11/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-sm {
+    width: 12/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+}
+@media (min-width: 1200px) {
+  .c-progress-10-sm {
+    width: 1/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-sm {
+    width: 2/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-sm {
+    width: 3/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-sm {
+    width: 4/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-sm {
+    width: 5/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-sm {
+    width: 6/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-sm {
+    width: 7/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-sm {
+    width: 8/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-sm {
+    width: 9/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-sm {
+    width: 10/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-sm {
+    width: 11/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-sm {
+    width: 12/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+}
+@media (min-width: 1400px) {
+  .c-progress-10-sm {
+    width: 1/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-sm {
+    width: 2/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-sm {
+    width: 3/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-sm {
+    width: 4/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-sm {
+    width: 5/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-sm {
+    width: 6/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-sm {
+    width: 7/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-sm {
+    width: 8/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-sm {
+    width: 9/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-sm {
+    width: 10/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-sm {
+    width: 11/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-sm {
+    width: 12/value/16rem;
+    height: 0.5rem;
+    border-radius: 3.75rem;
+  }
+}
+.c-progress-bar-md {
+  height: 1rem;
+  width: 80rem;
+}
+
+.c-progress-10-md {
+  width: 6.25rem;
+  height: 1rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-20-md {
+  width: 12.5rem;
+  height: 1rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-30-md {
+  width: 18.75rem;
+  height: 1rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-40-md {
+  width: 25rem;
+  height: 1rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-50-md {
+  width: 31.25rem;
+  height: 1rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-60-md {
+  width: 37.5rem;
+  height: 1rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-70-md {
+  width: 43.75rem;
+  height: 1rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-80-md {
+  width: 50rem;
+  height: 1rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-90-md {
+  width: 56.25rem;
+  height: 1rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-100-md {
+  width: 62.5rem;
+  height: 1rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-110-md {
+  width: 68.75rem;
+  height: 1rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-120-md {
+  width: 75rem;
+  height: 1rem;
+  border-radius: 3.75rem;
+}
+
+@media (min-width: 0px) {
+  .c-progress-10-md {
+    width: 1/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-md {
+    width: 2/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-md {
+    width: 3/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-md {
+    width: 4/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-md {
+    width: 5/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-md {
+    width: 6/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-md {
+    width: 7/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-md {
+    width: 8/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-md {
+    width: 9/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-md {
+    width: 10/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-md {
+    width: 11/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-md {
+    width: 12/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+}
+@media (min-width: 480px) {
+  .c-progress-10-md {
+    width: 1/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-md {
+    width: 2/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-md {
+    width: 3/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-md {
+    width: 4/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-md {
+    width: 5/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-md {
+    width: 6/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-md {
+    width: 7/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-md {
+    width: 8/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-md {
+    width: 9/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-md {
+    width: 10/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-md {
+    width: 11/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-md {
+    width: 12/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+}
+@media (min-width: 768px) {
+  .c-progress-10-md {
+    width: 1/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-md {
+    width: 2/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-md {
+    width: 3/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-md {
+    width: 4/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-md {
+    width: 5/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-md {
+    width: 6/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-md {
+    width: 7/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-md {
+    width: 8/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-md {
+    width: 9/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-md {
+    width: 10/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-md {
+    width: 11/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-md {
+    width: 12/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+}
+@media (min-width: 992px) {
+  .c-progress-10-md {
+    width: 1/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-md {
+    width: 2/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-md {
+    width: 3/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-md {
+    width: 4/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-md {
+    width: 5/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-md {
+    width: 6/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-md {
+    width: 7/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-md {
+    width: 8/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-md {
+    width: 9/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-md {
+    width: 10/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-md {
+    width: 11/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-md {
+    width: 12/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+}
+@media (min-width: 1200px) {
+  .c-progress-10-md {
+    width: 1/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-md {
+    width: 2/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-md {
+    width: 3/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-md {
+    width: 4/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-md {
+    width: 5/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-md {
+    width: 6/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-md {
+    width: 7/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-md {
+    width: 8/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-md {
+    width: 9/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-md {
+    width: 10/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-md {
+    width: 11/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-md {
+    width: 12/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+}
+@media (min-width: 1400px) {
+  .c-progress-10-md {
+    width: 1/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-md {
+    width: 2/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-md {
+    width: 3/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-md {
+    width: 4/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-md {
+    width: 5/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-md {
+    width: 6/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-md {
+    width: 7/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-md {
+    width: 8/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-md {
+    width: 9/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-md {
+    width: 10/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-md {
+    width: 11/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-md {
+    width: 12/value/16rem;
+    height: 1rem;
+    border-radius: 3.75rem;
+  }
+}
+.c-progress-bar-lg {
+  height: 2rem;
+  width: 80rem;
+}
+
+.c-progress-10-lg {
+  width: 6.25rem;
+  height: 2rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-20-lg {
+  width: 12.5rem;
+  height: 2rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-30-lg {
+  width: 18.75rem;
+  height: 2rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-40-lg {
+  width: 25rem;
+  height: 2rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-50-lg {
+  width: 31.25rem;
+  height: 2rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-60-lg {
+  width: 37.5rem;
+  height: 2rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-70-lg {
+  width: 43.75rem;
+  height: 2rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-80-lg {
+  width: 50rem;
+  height: 2rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-90-lg {
+  width: 56.25rem;
+  height: 2rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-100-lg {
+  width: 62.5rem;
+  height: 2rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-110-lg {
+  width: 68.75rem;
+  height: 2rem;
+  border-radius: 3.75rem;
+}
+
+.c-progress-120-lg {
+  width: 75rem;
+  height: 2rem;
+  border-radius: 3.75rem;
+}
+
+@media (min-width: 0px) {
+  .c-progress-10-lg {
+    width: 1/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-lg {
+    width: 2/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-lg {
+    width: 3/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-lg {
+    width: 4/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-lg {
+    width: 5/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-lg {
+    width: 6/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-lg {
+    width: 7/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-lg {
+    width: 8/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-lg {
+    width: 9/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-lg {
+    width: 10/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-lg {
+    width: 11/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-lg {
+    width: 12/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+}
+@media (min-width: 480px) {
+  .c-progress-10-lg {
+    width: 1/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-lg {
+    width: 2/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-lg {
+    width: 3/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-lg {
+    width: 4/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-lg {
+    width: 5/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-lg {
+    width: 6/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-lg {
+    width: 7/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-lg {
+    width: 8/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-lg {
+    width: 9/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-lg {
+    width: 10/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-lg {
+    width: 11/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-lg {
+    width: 12/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+}
+@media (min-width: 768px) {
+  .c-progress-10-lg {
+    width: 1/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-lg {
+    width: 2/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-lg {
+    width: 3/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-lg {
+    width: 4/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-lg {
+    width: 5/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-lg {
+    width: 6/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-lg {
+    width: 7/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-lg {
+    width: 8/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-lg {
+    width: 9/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-lg {
+    width: 10/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-lg {
+    width: 11/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-lg {
+    width: 12/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+}
+@media (min-width: 992px) {
+  .c-progress-10-lg {
+    width: 1/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-lg {
+    width: 2/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-lg {
+    width: 3/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-lg {
+    width: 4/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-lg {
+    width: 5/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-lg {
+    width: 6/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-lg {
+    width: 7/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-lg {
+    width: 8/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-lg {
+    width: 9/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-lg {
+    width: 10/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-lg {
+    width: 11/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-lg {
+    width: 12/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+}
+@media (min-width: 1200px) {
+  .c-progress-10-lg {
+    width: 1/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-lg {
+    width: 2/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-lg {
+    width: 3/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-lg {
+    width: 4/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-lg {
+    width: 5/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-lg {
+    width: 6/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-lg {
+    width: 7/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-lg {
+    width: 8/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-lg {
+    width: 9/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-lg {
+    width: 10/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-lg {
+    width: 11/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-lg {
+    width: 12/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+}
+@media (min-width: 1400px) {
+  .c-progress-10-lg {
+    width: 1/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-20-lg {
+    width: 2/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-30-lg {
+    width: 3/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-40-lg {
+    width: 4/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-50-lg {
+    width: 5/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-60-lg {
+    width: 6/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-70-lg {
+    width: 7/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-80-lg {
+    width: 8/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-90-lg {
+    width: 9/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-100-lg {
+    width: 10/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-110-lg {
+    width: 11/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+  .c-progress-120-lg {
+    width: 12/value/16rem;
+    height: 2rem;
+    border-radius: 3.75rem;
+  }
+}
+.c-progress-bar {
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 3.75rem;
 }
 
 .h1 {
