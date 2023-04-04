@@ -1,0 +1,26 @@
+
+.c-pagination{
+    &-container{
+        display:flex;//how container will display
+        flex-direction: row; //direction of container as row or column
+        flex-wrap:nowrap;// fit on one line
+        // justify-content:space-around; // space between columns
+        column-gap: 36px;
+    }
+    &-item{
+           margin-top: auto;
+    margin-bottom: auto;
+    }
+
+    width: 36px;
+    height: 36px;
+    &-non-active{
+        color: #374151;
+    }    
+    &-active{
+        background: #EEF2FF;
+        border-radius: 6px;
+        padding: 8px 14px;
+    }
+    
+}

@@ -1085,6 +1085,29 @@ Container + Row
   background-color: #f176ff;
 }
 
+.c-pagination {
+  width: 36px;
+  height: 36px;
+}
+.c-pagination-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  column-gap: 36px;
+}
+.c-pagination-item {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.c-pagination-non-active {
+  color: #374151;
+}
+.c-pagination-active {
+  background: #EEF2FF;
+  border-radius: 6px;
+  padding: 8px 14px;
+}
+
 .c-prg {
   background: black;
   border-radius: 100px;
