@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complete SASS</title>
     <link rel="stylesheet" href="/css/index.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+        $(function () {
+            $("#includeHtml").load("file.html");
+        });
+    </script>
 </head>
 
 <body>
@@ -402,7 +409,7 @@
     <article data-componenet="comp-pagination">
         <div class="l-container">
             <div class="l-row">
-                <!--     <div class="col-md-12">12</div> -->
+
 
                 <div class="c-pagination-container  flex justify-content-center [ mt-20 mb-20 ml-auto mr-auto ]">
                     <div class="l-col  l-col-12-sm l-col-2-md ">
@@ -532,6 +539,8 @@
         </div>
 
     </article>
+    <div id="includeHtml"></div>
+
 </body>
 
 </html>
