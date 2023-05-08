@@ -65,10 +65,20 @@
     }
 }
 
-[tooltip-position="right"]::before {
-    left: 120%;
-    top: 50%;
-    transform: translatey(-50%) rotate(90deg);
+[tooltip-position="right"]{
+    &::before {
+        left: 120%;
+        top: 50%;
+        transform: translatey(-50%) rotate(90deg);
+    }
+    &::after {
+        left: 260%;
+        top: 50%;
+        margin-left: -8px;
+        transform: translateX(-100%) translateY(-50%);
+    
+        
+    }
 }
 
 [tooltip-position="bottom"]::before {
@@ -82,14 +92,7 @@
 
 
 
-[tooltip-position="right"]::after {
-    left: 260%;
-    top: 50%;
-    margin-left: -8px;
-    transform: translateX(-100%) translateY(-50%);
-
-    
-}
+[tooltip-position="right"]
 
 [tooltip-position="bottom"]::after {
     left: 125%;

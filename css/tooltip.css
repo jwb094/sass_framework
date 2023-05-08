@@ -59,13 +59,6 @@
   top: 50%;
   transform: translatey(-50%) rotate(90deg);
 }
-
-[tooltip-position=bottom]::before {
-  left: 50%;
-  top: 150%;
-  transform: translate(-50%) rotate(179deg);
-}
-
 [tooltip-position=right]::after {
   left: 260%;
   top: 50%;
@@ -73,7 +66,13 @@
   transform: translateX(-100%) translateY(-50%);
 }
 
-[tooltip-position=bottom]::after {
+[tooltip-position=bottom]::before {
+  left: 50%;
+  top: 150%;
+  transform: translate(-50%) rotate(179deg);
+}
+
+[tooltip-position=right] [tooltip-position=bottom]::after {
   left: 125%;
   top: 285%;
   margin-left: -8px;
