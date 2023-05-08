@@ -12,12 +12,12 @@ $spacing_values: (
 );
 
 $p_utilities: (
-    "padding_x":("prefix":"u-px",
+    "padding_y":("prefix":"u-py",
         "values":("padding-top",
             "padding-bottom"
         ),
     ),
-    "padding_y":("prefix":"u-py",
+    "padding_x":("prefix":"u-px",
         "values":("padding-left",
             "padding-right"
         ),
@@ -42,12 +42,12 @@ $map in $p_utilities {
 }
 
 $m_utilities: (
-    "margin_x":("prefix":"u-mx",
+    "margin_y":("prefix":"u-my",
         "values":("margin-top",
             "margin-bottom"
         ),
     ),
-    "margin_y":("prefix":"u-my",
+    "margin_x":("prefix":"u-mx",
         "values":("margin-left",
             "margin-right"
         ),

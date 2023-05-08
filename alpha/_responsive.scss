@@ -7,3 +7,20 @@ Need to create class for hide and display classes for sm -> xxl
 
 /display block
 */
+$hidden  : hidden;
+$block   : block;
+
+@each  $key,$value in $breakpoints {
+    
+    @media (min-width:$value) {
+        
+        .#{$key}-#{$hidden}{
+            display: none;
+        }
+
+        .#{$key}-#{$block}{
+            display: block;
+        }
+    }
+
+}
