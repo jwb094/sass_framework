@@ -81,25 +81,21 @@
     }
 }
 
-[tooltip-position="bottom"]::before {
-    left: 50%;
-    top: 150%;
-    transform: translate(-50%) rotate(179deg);
+[tooltip-position="bottom"]{
+    &::before {
+        left: 50%;
+        top: 150%;
+        transform: translate(-50%) rotate(179deg);
+    }
+    &::after {
+        left: 120%;
+        top: 285%;
+        margin-left: -8px;
+        transform: translateX(-100%) translateY(-50%);
+    }
 }
 
 
-
-
-
-
-[tooltip-position="right"]
-
-[tooltip-position="bottom"]::after {
-    left: 125%;
-    top: 285%;
-    margin-left: -8px;
-    transform: translateX(-100%) translateY(-50%);
-}
 
 [tooltip]:hover::after,
 [tooltip]:hover::before {

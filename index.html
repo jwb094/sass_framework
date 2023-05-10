@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complete SASS</title>
     <link rel="stylesheet" href="/css/index.css">
-
+  
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
 </head>
@@ -340,7 +340,27 @@
 
     <h2> Modal </h2>
     <article data-componenet="comp-accordion">
+        <div class="l-container">
+            <div class="l-row">
+                <div class="l-col l-col-12-sm l-col-12-md l-col-12-lg">
+                    <button id="modal_open">
+                        Click Me to open Please
+                      </button>
+                      
+                      <div class="modal-container" id="modal_container">
+                        <div class="modal" >
+                          <h1>Modal</h1>
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe accusantium, repellendus nobis asperiores a quisquam facere? Dicta quibusdam quod laborum quidem, cumque nulla, praesentium, inventore impedit cupiditate nihil aliquam quia?</p>
+                            <button id="modal_close">
+                        Click Me to close me
+                      </button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
     </article>
+
 
     <h2> Progress Bars </h2>
     <article data-componenet="comp-progress-bars">
@@ -558,9 +578,9 @@
     <h2 class=""> Tabs432 </h2>
     <article data-componenet="tabs" class=" u-my-4" ></article>
 
-    <div id="includeHtml"></div>
+    <!-- <div id="includeHtml"></div> -->
 
 </body>
-
+<script src="/js/modal.js"></script>
 </html>
 

@@ -71,9 +71,8 @@
   top: 150%;
   transform: translate(-50%) rotate(179deg);
 }
-
-[tooltip-position=right] [tooltip-position=bottom]::after {
-  left: 125%;
+[tooltip-position=bottom]::after {
+  left: 120%;
   top: 285%;
   margin-left: -8px;
   transform: translateX(-100%) translateY(-50%);
