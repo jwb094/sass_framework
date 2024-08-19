@@ -1294,6 +1294,766 @@ Container + Row
     margin-right: 100%;
   }
 }
+/*
+* Light Selection of Default Colours
+*
+*/
+.white-light-1 {
+  color: white;
+}
+
+.white-light-2 {
+  color: white;
+}
+
+.white-light-3 {
+  color: white;
+}
+
+.white-light-4 {
+  color: white;
+}
+
+.white-light-5 {
+  color: white;
+}
+
+.white-light-6 {
+  color: white;
+}
+
+.white-light-7 {
+  color: white;
+}
+
+.white-light-8 {
+  color: white;
+}
+
+.white-light-9 {
+  color: white;
+}
+
+.white-light-10 {
+  color: white;
+}
+
+/*
+* Darken Selection of Default Colours
+*
+*/
+.white-dark-1 {
+  color: #e6e6e6;
+}
+
+.white-dark-2 {
+  color: #cccccc;
+}
+
+.white-dark-3 {
+  color: #b3b3b3;
+}
+
+.white-dark-4 {
+  color: #999999;
+}
+
+.white-dark-5 {
+  color: gray;
+}
+
+.white-dark-6 {
+  color: #666666;
+}
+
+.white-dark-7 {
+  color: #4d4d4d;
+}
+
+.white-dark-8 {
+  color: #333333;
+}
+
+.white-dark-9 {
+  color: #1a1a1a;
+}
+
+.white-dark-10 {
+  color: black;
+}
+
+.black-light-1 {
+  color: #1a1a1a;
+}
+
+.black-light-2 {
+  color: #333333;
+}
+
+.black-light-3 {
+  color: #4d4d4d;
+}
+
+.black-light-4 {
+  color: #666666;
+}
+
+.black-light-5 {
+  color: gray;
+}
+
+.black-light-6 {
+  color: #999999;
+}
+
+.black-light-7 {
+  color: #b3b3b3;
+}
+
+.black-light-8 {
+  color: #cccccc;
+}
+
+.black-light-9 {
+  color: #e6e6e6;
+}
+
+.black-light-10 {
+  color: white;
+}
+
+/*
+* Darken Selection of Default Colours
+*
+*/
+.black-dark-1 {
+  color: black;
+}
+
+.black-dark-2 {
+  color: black;
+}
+
+.black-dark-3 {
+  color: black;
+}
+
+.black-dark-4 {
+  color: black;
+}
+
+.black-dark-5 {
+  color: black;
+}
+
+.black-dark-6 {
+  color: black;
+}
+
+.black-dark-7 {
+  color: black;
+}
+
+.black-dark-8 {
+  color: black;
+}
+
+.black-dark-9 {
+  color: black;
+}
+
+.black-dark-10 {
+  color: black;
+}
+
+.blue-light-1 {
+  color: #5768ff;
+}
+
+.blue-light-2 {
+  color: #8a96ff;
+}
+
+.blue-light-3 {
+  color: #bdc4ff;
+}
+
+.blue-light-4 {
+  color: #f0f2ff;
+}
+
+.blue-light-5 {
+  color: white;
+}
+
+.blue-light-6 {
+  color: white;
+}
+
+.blue-light-7 {
+  color: white;
+}
+
+.blue-light-8 {
+  color: white;
+}
+
+.blue-light-9 {
+  color: white;
+}
+
+.blue-light-10 {
+  color: white;
+}
+
+/*
+* Darken Selection of Default Colours
+*
+*/
+.blue-dark-1 {
+  color: #0018f0;
+}
+
+.blue-dark-2 {
+  color: #0013bd;
+}
+
+.blue-dark-3 {
+  color: #000e8a;
+}
+
+.blue-dark-4 {
+  color: #000957;
+}
+
+.blue-dark-5 {
+  color: #000424;
+}
+
+.blue-dark-6 {
+  color: black;
+}
+
+.blue-dark-7 {
+  color: black;
+}
+
+.blue-dark-8 {
+  color: black;
+}
+
+.blue-dark-9 {
+  color: black;
+}
+
+.blue-dark-10 {
+  color: black;
+}
+
+.red-light-1 {
+  color: #d50000;
+}
+
+.red-light-2 {
+  color: #ff0909;
+}
+
+.red-light-3 {
+  color: #ff3c3c;
+}
+
+.red-light-4 {
+  color: #ff6f6f;
+}
+
+.red-light-5 {
+  color: #ffa2a2;
+}
+
+.red-light-6 {
+  color: #ffd5d5;
+}
+
+.red-light-7 {
+  color: white;
+}
+
+.red-light-8 {
+  color: white;
+}
+
+.red-light-9 {
+  color: white;
+}
+
+.red-light-10 {
+  color: white;
+}
+
+/*
+* Darken Selection of Default Colours
+*
+*/
+.red-dark-1 {
+  color: #6f0000;
+}
+
+.red-dark-2 {
+  color: #3c0000;
+}
+
+.red-dark-3 {
+  color: #090000;
+}
+
+.red-dark-4 {
+  color: black;
+}
+
+.red-dark-5 {
+  color: black;
+}
+
+.red-dark-6 {
+  color: black;
+}
+
+.red-dark-7 {
+  color: black;
+}
+
+.red-dark-8 {
+  color: black;
+}
+
+.red-dark-9 {
+  color: black;
+}
+
+.red-dark-10 {
+  color: black;
+}
+
+.grey-light-1 {
+  color: #787878;
+}
+
+.grey-light-2 {
+  color: #919191;
+}
+
+.grey-light-3 {
+  color: #ababab;
+}
+
+.grey-light-4 {
+  color: #c4c4c4;
+}
+
+.grey-light-5 {
+  color: #dedede;
+}
+
+.grey-light-6 {
+  color: #f7f7f7;
+}
+
+.grey-light-7 {
+  color: white;
+}
+
+.grey-light-8 {
+  color: white;
+}
+
+.grey-light-9 {
+  color: white;
+}
+
+.grey-light-10 {
+  color: white;
+}
+
+/*
+* Darken Selection of Default Colours
+*
+*/
+.grey-dark-1 {
+  color: #454545;
+}
+
+.grey-dark-2 {
+  color: #2b2b2b;
+}
+
+.grey-dark-3 {
+  color: #121212;
+}
+
+.grey-dark-4 {
+  color: black;
+}
+
+.grey-dark-5 {
+  color: black;
+}
+
+.grey-dark-6 {
+  color: black;
+}
+
+.grey-dark-7 {
+  color: black;
+}
+
+.grey-dark-8 {
+  color: black;
+}
+
+.grey-dark-9 {
+  color: black;
+}
+
+.grey-dark-10 {
+  color: black;
+}
+
+.pink-light-1 {
+  color: #ff9cce;
+}
+
+.pink-light-2 {
+  color: #ffcfe7;
+}
+
+.pink-light-3 {
+  color: white;
+}
+
+.pink-light-4 {
+  color: white;
+}
+
+.pink-light-5 {
+  color: white;
+}
+
+.pink-light-6 {
+  color: white;
+}
+
+.pink-light-7 {
+  color: white;
+}
+
+.pink-light-8 {
+  color: white;
+}
+
+.pink-light-9 {
+  color: white;
+}
+
+.pink-light-10 {
+  color: white;
+}
+
+/*
+* Darken Selection of Default Colours
+*
+*/
+.pink-dark-1 {
+  color: #ff369b;
+}
+
+.pink-dark-2 {
+  color: #ff0381;
+}
+
+.pink-dark-3 {
+  color: #cf0068;
+}
+
+.pink-dark-4 {
+  color: #9c004e;
+}
+
+.pink-dark-5 {
+  color: #690035;
+}
+
+.pink-dark-6 {
+  color: #36001b;
+}
+
+.pink-dark-7 {
+  color: #030002;
+}
+
+.pink-dark-8 {
+  color: black;
+}
+
+.pink-dark-9 {
+  color: black;
+}
+
+.pink-dark-10 {
+  color: black;
+}
+
+.green-light-1 {
+  color: #00b300;
+}
+
+.green-light-2 {
+  color: #00e600;
+}
+
+.green-light-3 {
+  color: #1aff1a;
+}
+
+.green-light-4 {
+  color: #4dff4d;
+}
+
+.green-light-5 {
+  color: #80ff80;
+}
+
+.green-light-6 {
+  color: #b3ffb3;
+}
+
+.green-light-7 {
+  color: #e6ffe6;
+}
+
+.green-light-8 {
+  color: white;
+}
+
+.green-light-9 {
+  color: white;
+}
+
+.green-light-10 {
+  color: white;
+}
+
+/*
+* Darken Selection of Default Colours
+*
+*/
+.green-dark-1 {
+  color: #004d00;
+}
+
+.green-dark-2 {
+  color: #001a00;
+}
+
+.green-dark-3 {
+  color: black;
+}
+
+.green-dark-4 {
+  color: black;
+}
+
+.green-dark-5 {
+  color: black;
+}
+
+.green-dark-6 {
+  color: black;
+}
+
+.green-dark-7 {
+  color: black;
+}
+
+.green-dark-8 {
+  color: black;
+}
+
+.green-dark-9 {
+  color: black;
+}
+
+.green-dark-10 {
+  color: black;
+}
+
+.orange-light-1 {
+  color: #ffb733;
+}
+
+.orange-light-2 {
+  color: #ffc966;
+}
+
+.orange-light-3 {
+  color: #ffdb99;
+}
+
+.orange-light-4 {
+  color: #ffedcc;
+}
+
+.orange-light-5 {
+  color: white;
+}
+
+.orange-light-6 {
+  color: white;
+}
+
+.orange-light-7 {
+  color: white;
+}
+
+.orange-light-8 {
+  color: white;
+}
+
+.orange-light-9 {
+  color: white;
+}
+
+.orange-light-10 {
+  color: white;
+}
+
+/*
+* Darken Selection of Default Colours
+*
+*/
+.orange-dark-1 {
+  color: #cc8400;
+}
+
+.orange-dark-2 {
+  color: #996300;
+}
+
+.orange-dark-3 {
+  color: #664200;
+}
+
+.orange-dark-4 {
+  color: #332100;
+}
+
+.orange-dark-5 {
+  color: black;
+}
+
+.orange-dark-6 {
+  color: black;
+}
+
+.orange-dark-7 {
+  color: black;
+}
+
+.orange-dark-8 {
+  color: black;
+}
+
+.orange-dark-9 {
+  color: black;
+}
+
+.orange-dark-10 {
+  color: black;
+}
+
+.yellow-light-1 {
+  color: #ffff33;
+}
+
+.yellow-light-2 {
+  color: #ffff66;
+}
+
+.yellow-light-3 {
+  color: #ffff99;
+}
+
+.yellow-light-4 {
+  color: #ffffcc;
+}
+
+.yellow-light-5 {
+  color: white;
+}
+
+.yellow-light-6 {
+  color: white;
+}
+
+.yellow-light-7 {
+  color: white;
+}
+
+.yellow-light-8 {
+  color: white;
+}
+
+.yellow-light-9 {
+  color: white;
+}
+
+.yellow-light-10 {
+  color: white;
+}
+
+/*
+* Darken Selection of Default Colours
+*
+*/
+.yellow-dark-1 {
+  color: #cccc00;
+}
+
+.yellow-dark-2 {
+  color: #999900;
+}
+
+.yellow-dark-3 {
+  color: #666600;
+}
+
+.yellow-dark-4 {
+  color: #333300;
+}
+
+.yellow-dark-5 {
+  color: black;
+}
+
+.yellow-dark-6 {
+  color: black;
+}
+
+.yellow-dark-7 {
+  color: black;
+}
+
+.yellow-dark-8 {
+  color: black;
+}
+
+.yellow-dark-9 {
+  color: black;
+}
+
+.yellow-dark-10 {
+  color: black;
+}
+
 .bg__white {
   background-color: #FFFFFF;
 }
@@ -1301,13 +2061,13 @@ Container + Row
   background-color: #000;
 }
 .bg__red {
-  background-color: #a20000;
+  background-color: #FF0000;
 }
 .bg__blue {
-  background-color: #243aff;
+  background-color: #0000FF;
 }
 .bg__grey {
-  background-color: #5e5e5e;
+  background-color: #808080;
 }
 .bg__pink {
   background-color: #f176ff;
@@ -1349,22 +2109,22 @@ Container + Row
   background-color: black;
 }
 .c_button__red {
-  background-color: #a20000;
+  background-color: #FF0000;
 }
 .c_button__red:hover {
-  background-color: #00a2a2;
+  background-color: aqua;
 }
 .c_button__blue {
-  background-color: #243aff;
+  background-color: #0000FF;
 }
 .c_button__blue:hover {
-  background-color: #ffe924;
+  background-color: yellow;
 }
 .c_button__grey {
-  background-color: #5e5e5e;
+  background-color: #808080;
 }
 .c_button__grey:hover {
-  background-color: #5e5e5e;
+  background-color: gray;
 }
 .c_button__green {
   background-color: #007a02;
@@ -1433,13 +2193,13 @@ Container + Row
   background-color: #000;
 }
 .c-bdg__red {
-  background-color: #a20000;
+  background-color: #FF0000;
 }
 .c-bdg__blue {
-  background-color: #243aff;
+  background-color: #0000FF;
 }
 .c-bdg__grey {
-  background-color: #5e5e5e;
+  background-color: #808080;
 }
 .c-bdg__pink {
   background-color: #f176ff;
@@ -1818,13 +2578,13 @@ Need to create class for hide and display classes for sm -> xxl
   color: #000;
 }
 .colour_red {
-  color: #a20000;
+  color: #FF0000;
 }
 .colour_blue {
-  color: #243aff;
+  color: #0000FF;
 }
 .colour_grey {
-  color: #5e5e5e;
+  color: #808080;
 }
 
 .u-py-1 {

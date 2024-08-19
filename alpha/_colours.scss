@@ -1,7 +1,60 @@
+@use 'sass:color';
+$percentage: (
+    "1":10%,
+    "2":20%,
+    "3":30%,
+    "4":40%,
+    "5":50%,
+    "6":60%,
+    "7":70%,
+    "8":80%,
+    "9":90%,
+    "10":100%
+);
+$colours :(
+    "white": #FFFFFF,
+    "black":#000,
+    "blue": #243aff,
+    "red":#a20000,
+    "grey":#5e5e5e,
+    "pink":#FF69B4,
+    "green":#008000,
+    "orange":#FFA500,
+    "yellow":#FFFF00
+);
+
+
+/*
+* Light Selection of Default Colours
+*
+*/
+@each $colourKey,$colourValue in $colours {
+ @each $percentageKey,$percentageValue in $percentage {
+        .#{$colourKey}-light-#{$percentageKey} {
+                color:lighten($colourValue, $percentageValue);
+        }
+ }
+
+/*
+* Darken Selection of Default Colours
+*
+*/
+@each $percentageKey,$percentageValue in $percentage {
+    .#{$colourKey}-dark-#{$percentageKey} {
+            color:darken($colourValue, $percentageValue);
+    }
+}
+}
+
 $white: #FFFFFF;  
 $black:#000;
-$blue: #243aff;
-$red:#a20000;
-$grey:#5e5e5e;
+$blue: #0000FF;
+$red:#FF0000;
+$grey:#808080;
 $pink:#f176ff;
 $green:#007a02;
+
+//Light To Dark
+
+
+
